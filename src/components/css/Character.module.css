@@ -4,4 +4,52 @@
     border-radius: 5px;
     width: 45%;
     margin: 2%;
+    background-color:#01B4C6;
+}
+
+.character_main .name{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.name h2{
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.name img{
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    margin-right: 1em;
+}
+
+.character_main .content{
+    background-color: #f2f3b2;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.character_main .content span{
+    font-weight: bold;
+}
+
+.origin{
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.character_main .episodes{
+    margin-top: 1em;
+}
+
+.episodes h4{
+    justify-content: center;
+    text-align: center;
 }
