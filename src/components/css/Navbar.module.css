@@ -1,0 +1,15 @@
+.navbar{
+    background-color: #01B4C6;
+    padding: 0.5em;
+    display: flex;
+    
+}
+
+.navbar img{
+    width: 4em;
+    border-radius: 30%;
+}
+
+.navbar div{
+    justify-content: center;
+}
