@@ -9,9 +9,10 @@
 
 .copy_right{
     margin-top: 2em;
+    
 }
 
 .copy_right span{
     font-weight: bold;
-    color: #F675DA;
+    color: rgb(35, 0, 231);
 }
