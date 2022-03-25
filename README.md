@@ -33,7 +33,7 @@ git@github.com:wesleibl/api-rick-and-morty.git
 
 Acesse a pasta do repositorio criada
 
-Instale os modulos comando:
+Instale os modulos com o comando:
 ```sh
 npm install
 ```

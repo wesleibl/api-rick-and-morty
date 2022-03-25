@@ -46,31 +46,31 @@ function Character({id}){
     },[id])
 
     return (
-        <div className={styles.character_main}>
-            <div className={styles.name}>
+        <article className={styles.character_main}>
+            <section className={styles.name}>
                 <h2>{char.name}</h2>
-                <img src={char.image} alt={`${char.name}_img`}/>
-            </div>
-            <div className={styles.content}>
-                <div className={styles.status}>
+                <img src={char.image} alt={`Imagem do personagem ${char.name} da animação Rick and Morty`}/>
+            </section>
+            <section className={styles.content}>
+                <section className={styles.status}>
                     <p>Status: <span>{char.status}</span></p>
-                </div>
-                <div className={styles.origin}>
+                </section>
+                <section className={styles.origin}>
                     <p>Planeta de origem: <span>{charOrigin}</span></p>
-                </div>
-                <div className={styles.episodes}>
+                </section>
+                <section className={styles.episodes}>
                     <h4>Episódios</h4>
                     {charEpisodes.name}
                     {charEpisodes.map(episode => 
-                        <div className={styles.episodes} key={episode.id}>
-                        <p><span>{episode.name}</span></p> 
-                        <p>Data de lançamento: {episode.air_date}</p>
-                        <p>Numero: {episode.episode}</p>
-                        </div>
+                        <section className={styles.episodes} key={episode.id}>
+                            <p><span>{episode.name}</span></p> 
+                            <p>Data de lançamento: {episode.air_date}</p>
+                            <p>Numero: {episode.episode}</p>
+                        </section>
                     )}
-                </div>
-            </div>
-        </div>
+                </section>
+            </section>
+        </article>
     )
 }
 export default Character
